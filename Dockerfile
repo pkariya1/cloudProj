@@ -1,2 +1,2 @@
 FROM tomcat:8
-COPY target/*.war /usr/local/tomcat/webapps/myweb.war
+COPY target/jb-hello-world-maven-0.1.0.jar /usr/local/tomcat/webapps/
