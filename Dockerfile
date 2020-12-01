@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8083
 ADD target/jb-hello-world-maven-0.1.0.jar jb-hello-world-maven-0.1.0.jar
-ENTRYPOINT ["java","-jar","/jb-hello-world-maven-0.1.0.jar hello.HelloWorld"]
+ENTRYPOINT ["java","-jar","/jb-hello-world-maven-0.1.0.jar"]
